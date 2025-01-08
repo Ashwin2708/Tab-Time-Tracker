@@ -1,5 +1,5 @@
 # Tab Time Tracker Chrome Extension
-
+![icon48](https://github.com/user-attachments/assets/c348dd02-f60e-4c86-90b4-056f8c29e16e)
 ## Overview
 The **Tab Time Tracker** is a simple and efficient Chrome extension that helps you track and manage the time you spend on individual browser tabs. This tool is ideal for anyone looking to improve their productivity and monitor browsing habits effectively.
 
@@ -35,6 +35,9 @@ Follow these steps to install and use the extension:
 1. Click on the extension icon in the Chrome toolbar.
 2. The popup will display a list of active tabs and the time spent on each.
 3. Monitor your tab usage directly from the popup.
+
+## DEMO image of the Extension
+<img width="271" alt="Demo" src="https://github.com/user-attachments/assets/2a0bc23b-d54a-4391-84a3-0c4fe0eeae07" />
 
 ## Future Improvements
 - Adding support for saving and exporting time-tracking data.
