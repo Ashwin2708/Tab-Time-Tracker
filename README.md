@@ -1,55 +1,62 @@
 # Tab Time Tracker Chrome Extension
-![icon48](https://github.com/user-attachments/assets/c348dd02-f60e-4c86-90b4-056f8c29e16e)
+
+![icons8-url-48](https://github.com/Shrey-Raj/Tab-Time-Tracker/assets/119098647/6e5941d9-b090-4acb-86a9-16e536ff7272)
+
 ## Overview
-The **Tab Time Tracker** is a simple and efficient Chrome extension that helps you track and manage the time you spend on individual browser tabs. This tool is ideal for anyone looking to improve their productivity and monitor browsing habits effectively.
 
-## Benefits
-- **Time Management:** Monitor how long you spend on each tab to better manage your online activities.
-- **Productivity Boost:** Identify and limit distractions by understanding your browsing patterns.
-- **User-Friendly:** Lightweight, intuitive, and easy to use.
+The Tab Time Tracker Chrome Extension is a lightweight tool that helps you keep track of the time you spend on each tab during a single browser session. It's perfect for those who want to monitor their browsing habits and optimize their productivity.
 
-## How It Works
-The extension consists of three main code files:
-1. **popup.js:** Contains the logic for tracking tab usage and displaying the data.
-2. **popup.html:** The user interface of the extension, showing the tracked time in an organized format.
-3. **manifest.json:** The configuration file that defines the extension's metadata and permissions.
+### Features
 
-## How to Use the Code
-1. Clone or download this repository to your local machine.
-2. Ensure the following files are present in the same directory:
-   - `popup.js`
-   - `popup.html`
-   - `manifest.json`
-3. Modify the code if necessary to customize it for your specific needs.
+- Automatically tracks the time spent on each open tab.
+- Provides a simple and intuitive dashboard to view tab usage.
+- Data is cleared when the browser is closed, making it session-specific.
 
-## How to Deploy the Extension on Chrome
-Follow these steps to install and use the extension:
+### Demonstration Video At : [Click Here](https://drive.google.com/file/d/12tO5pzF-Ip40Y0ZZ29HvpCkPhOi2PZxn/view?usp=sharing)
 
-1. Open Chrome and navigate to `chrome://extensions/`.
-2. Enable **Developer mode** using the toggle in the top-right corner.
-3. Click on the **Load unpacked** button.
-4. Select the directory containing the `popup.js`, `popup.html`, and `manifest.json` files.
-5. The extension will now be added to Chrome and visible in the extensions bar.
+## Installation (Local)
 
-## How to Use the Extension
-1. Click on the extension icon in the Chrome toolbar.
-2. The popup will display a list of active tabs and the time spent on each.
-3. Monitor your tab usage directly from the popup.
+**Note:** This method is for advanced users and developers who want to test the extension .
 
-## DEMO image of the Extension
-<img width="271" alt="Demo" src="https://github.com/user-attachments/assets/2a0bc23b-d54a-4391-84a3-0c4fe0eeae07" />
+1. **Download the Extension**: Click the "Clone or Download" button on the [GitHub repository](https://github.com/Shrey-Raj/Tab-Time-Tracker/) of Tab Time Tracker and select "Download ZIP." Extract the downloaded ZIP file to a location on your computer.
 
-## Future Improvements
-- Adding support for saving and exporting time-tracking data.
-- Introducing dark mode for better accessibility.
-- Integrating notifications to alert users when they've spent too much time on a particular tab.
+2. **Open Chrome Extensions**: Open Google Chrome and go to `chrome://extensions/` in the address bar.
 
-## Contribution
-Feel free to fork the repository and submit pull requests with any enhancements or fixes.
+3. **Enable Developer Mode**: In the top-right corner of the "chrome://extensions/" page, toggle on the "Developer mode" switch.
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+4. **Load Unpacked Extension**: Click the "Load unpacked" button. A file dialog will appear.
+
+5. **Select Extension Directory**: Navigate to the directory where you extracted the ZIP file containing the extension files. Select the folder containing the extension's manifest file (usually named `manifest.json`) and click "Select Folder."
+
+6. **Confirm Installation**: The Tab Time Tracker extension will be loaded into Chrome. You should see its icon in the Chrome toolbar.
+
+7. **Start Using**: The extension is now ready to use. Click its icon in the toolbar to open the extension's dashboard and start tracking your tabs.
+
+
+## How to Use
+
+1. **Click the Tab Time Tracker Icon**: After installation, click the Tab Time Tracker icon in your Chrome toolbar to open the dashboard.
+
+2. **View Tab Usage**: The dashboard will display a list of tabs you visited in the current session so far, along with the time you've spent on each tab during your current browsing session.
+3. **Calculated Time** : As as soon as you switch from one tab to another the time spent on the previous tab is updated in the dashboard .
+
+4. **Real-time Tracking**: The extension automatically starts tracking when you open the browser and stops when you close it.
+
+## Usage Benefits:
+
+- **Time Management:** Track time spent on each tab for better time allocation.
+- **Productivity Boost:** Stay focused by visualizing time on distracting websites.
+- **Task Tracking:** Monitor time spent on different tasks or projects.
+- **Resource Allocation:** Optimize online resources effectively.
+- **Efficiency:** Reminder to close unnecessary tabs for a smoother experience.
+- **Privacy:** Session-specific tracking ensures data privacy.
+- **Feedback:** Review habits for workflow improvements.
+
+This extension empowers users to control online activities and make informed decisions, improving productivity and time management.
+
+## Screenshots 
+![Screenshot (120)](https://github.com/Shrey-Raj/Tab-Time-Tracker/assets/119098647/050b79d1-9cc5-485d-b514-34adb8940853)
 
 ---
 
-**Happy Tracking!**
+**Note:** Tab Time Tracker is a simple tool designed to help you track your browsing habits during a single session. It does not collect any personal information or store data beyond your current browser session.

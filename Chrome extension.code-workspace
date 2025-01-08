@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "Chrome extension",
+			"path": "../Chrome extension"
+		},
+		{
+			"name": "favicon_io",
+			"path": "../../Downloads/favicon_io"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Chrome extension"
+	}
+}
